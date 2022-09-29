@@ -1,0 +1,659 @@
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 20px;
+}
+
+#navbarNav {
+  justify-content: right;
+
+}
+
+
+
+.logo {
+  width: 35%;
+  margin-left: 50px;
+}
+
+#logoText {
+  font-size: 2em;
+}
+
+#green {
+  color: green;
+}
+
+#active {
+  color: white;
+}
+
+.nav-item {
+  font-size: 1.5em;
+  margin-right: 50px;
+
+}
+
+.imgBa {
+  filter: brightness(50%);
+  width: 100%;
+
+
+}
+
+
+
+
+
+.background {
+  background: rgba(0, 0, 0, .55) url("img/ba1.jpg");
+  background-blend-mode: darken;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-right: 5%;
+  padding-top: 15%;
+
+
+}
+
+.jumboCard {
+  text-align: right;
+  color: white;
+  width: 50%;
+  float: right;
+
+
+}
+
+.btns {
+  text-align: right;
+  color: white;
+  width: 60%;
+  float: right;
+
+}
+
+.jumboTitle {
+  font-size: 4em;
+}
+
+.jumboText {
+  font-size: 3em;
+}
+
+#btnQuiero {
+  color: white;
+  border: 1px solid white;
+  font-size: 2em;
+  font-weight: 300;
+  padding: 10px;
+  margin-top: 40px;
+  margin-right: 20px;
+
+}
+
+#btnComprar {
+  background-color: #29a744;
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+  padding: 10px;
+  margin-top: 40px;
+
+}
+
+
+#green {
+  color: #299f43;
+}
+
+#white {
+  color: white;
+}
+
+
+
+.formCenter {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat (1fr 1fr 1fr);
+  grid-template-rows: repeat (1fr 3fr 1fr);
+  grid-template-areas: "title title title""card1 card2 card3";
+  align-content: center;
+  justify-content: center;
+  column-gap: 3%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 80px;
+}
+
+#margin {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.conoce {
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.oradores {
+  text-transform: uppercase;
+  font-size: 55px;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.title {
+  grid-area: title;
+}
+
+.card1 {
+  grid-area: card1;
+  border: 1px solid lightgrey;
+  text-align: center;
+
+}
+
+.card2 {
+  grid-area: card2;
+  border: 1px solid lightgrey;
+  text-align: center;
+
+}
+
+.card3 {
+  grid-area: card3;
+  border: 1px solid lightgrey;
+  text-align: center;
+}
+
+#img {
+  border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.name {
+  text-align: left;
+  font-weight: 400;
+  padding-left: 40px
+}
+
+.text {
+  text-align: left;
+  padding-left: 40px;
+  font-weight: 200;
+}
+
+.buttonsGrid {
+  text-align: left;
+  margin-top: 40px;
+  padding-left: 40px
+}
+
+.btnJS,
+.btnR,
+.btnN,
+.btnStart {
+  margin-top: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btnJS {
+  background-color: #ffc107;
+}
+
+.btnR {
+  background-color: #17a4b8;
+  color: white;
+}
+
+.btnN {
+  background-color: grey;
+  color: white;
+}
+
+.btnStart {
+  background-color: red;
+  color: white;
+}
+
+.containerOctober {
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid grey;
+  padding-top: 2px;
+
+}
+
+.imgOctober {
+  background: rgba(0, 0, 0, .55) url("img/honolulu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  background-position: center;
+  height: 800px;
+
+}
+
+.textOctober,
+.titleOctober {
+  margin: 0px;
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+
+
+}
+
+.textOctober {
+
+  font-size: 25px;
+  font-weight: 300;
+
+}
+
+
+.titleOctober {
+
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.textOctoberGral {
+  border-left: 1px solid white;
+  width: 50%;
+  float: right;
+  height: auto;
+  background-color: #353a40;
+
+}
+
+
+
+
+#btnConoce {
+  color: white;
+  border: 1px solid white;
+  margin: 30px;
+  font-size: 30px;
+  font-weight: 300;
+
+}
+
+.formTitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.formTitleSpan {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+#btnSend {
+  color: white;
+  background-color: #96c93e;
+  border: 1px solid white;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+.inputs {
+  display: flex;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+
+#input1 {
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+#input2 {
+  font-size: 25px;
+
+}
+
+#textArea {
+  font-size: 35px;
+  padding: 30px;
+}
+
+#formCenter {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+
+
+}
+
+#recuerda {
+  text-align: left;
+  color: grey;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+
+footer {
+  background: linear-gradient(to right, #1c3846, #1f5271);
+  height: 200px;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 20px;
+}
+
+.footerText {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.footerDiv {
+  margin: 20px;
+  width: 180px;
+}
+
+
+@media only screen and (max-width: 1800px) {
+
+
+  .nav-item {
+    font-size: 1.2em;
+    margin-right: 20px;
+
+  }
+
+  footer {
+
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+  .footerDiv {
+    margin: 0px;
+    width: 150px;
+    padding: 0px;
+
+  }
+
+  .footerText {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 1525px) {
+
+  .footerText {
+    font-size: 1em;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+
+  .nav-item {
+    font-size: 1em;
+    margin-right: 20px;
+
+  }
+
+
+  .jumboCard {
+
+
+    text-align: right;
+    color: white;
+    width: 80%;
+
+  }
+
+  .btns {
+    width: 100%;
+  }
+
+
+
+  .textOctober {
+
+    font-size: 20px;
+    font-weight: 300;
+
+  }
+
+
+  .titleOctober {
+
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+
+  .imgOctober {
+
+    height: 700px;
+
+  }
+
+
+  .grid-container {
+    display: block;
+  }
+
+
+  .conoce {
+
+    font-size: 25px;
+  }
+
+  .oradores {
+    font-size: 45px;
+
+  }
+
+  #textArea {
+    font-size: 25px;
+    padding: 20px;
+  }
+
+
+  .formTitle {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 20px;
+  }
+
+  #formCenter {
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+
+  }
+
+  .footerText {
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+  }
+
+  footer {
+    height: auto;
+    padding: 20px;
+    display: block;
+
+  }
+
+
+  .footerDiv {
+    margin: 10px;
+    width: auto;
+  }
+
+
+}
+
+@media only screen and (max-width: 690px) {
+  .logo {
+    width: auto;
+    margin: 0px;
+  }
+
+
+  #logoText {
+    margin: 0px;
+    width: 50%;
+
+  }
+
+  .jumboCard {
+
+
+    text-align: center;
+    color: white;
+    width: 100%;
+
+  }
+
+  #btnQuiero {
+    display: block;
+    font-size: 1em;
+    justify-content: center;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+
+  }
+
+
+
+  #btnComprar {
+    display: block;
+    font-size: 1em;
+    justify-content: center;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btns {
+
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+
+  .background {
+    padding: 20px;
+    height: 700px;
+  }
+
+
+  .imgOctober {
+    display: none;
+
+  }
+
+  .textOctoberGral {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+
+  }
+
+  #btnConoce {
+    color: white;
+    border: 1px solid white;
+    font-size: 25px;
+    font-weight: 500;
+
+  }
+
+  .conoce {
+
+    font-size: 15px;
+  }
+
+  .oradores {
+    font-size: 35px;
+
+  }
+
+  .logo {
+    width: 35%;
+    margin-left: 0px;
+  }
+
+  .formTitle {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px;
+  }
+
+  .inputs {
+    display: block;
+  }
+
+  #input1 {
+    margin-bottom: 20px;
+  }
+
+  footer {
+    display: block;
+  }
+
+
+  .footerDiv {
+    margin: 10px;
+  }
+
+}
