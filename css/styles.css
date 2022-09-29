@@ -48,7 +48,7 @@ nav {
 
 
 .background {
-  background: rgba(0, 0, 0, .55) url("/img/ba2.jpg");
+  background: rgba(0, 0, 0, .55) url("/img/ba.jpg");
   background-blend-mode: darken;
   height: 900px;
   background-repeat: no-repeat;
@@ -245,7 +245,7 @@ nav {
 }
 
 .imgOctober {
-  background: rgba(0, 0, 0, .55) url("/img/honolulu2.jpg");
+  background: rgba(0, 0, 0, .55) url("/img/honolulu.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 50%;
