@@ -12,6 +12,10 @@ nav {
 }
 
 
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 
 .logo {
   width: 35%;
