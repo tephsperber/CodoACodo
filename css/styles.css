@@ -4,6 +4,7 @@ body {
 
 nav {
   padding: 20px;
+  padding-right: 100px;
 
 }
 
@@ -19,12 +20,12 @@ nav {
 
 
 .logo {
-  width: 35%;
-  margin-left: 50px;
+  width: 25%;
+  margin-left: 40px;
 }
 
 #logoText {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 #green {
@@ -35,9 +36,10 @@ nav {
   color: white;
 }
 
-.nav-item {
-  font-size: 1.5em;
-  margin-right: 50px;
+.nav-link {
+  font-size: 1.2em;
+  margin-right: 20px;
+  width: 100%;
 
 }
 
@@ -55,12 +57,12 @@ nav {
 .background {
   background: rgba(0, 0, 0, .55) url("../img/ba.jpg");
   background-blend-mode: darken;
-  height: 900px;
+  height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  padding-right: 5%;
-  padding-top: 15%;
+  padding-right: 10%;
+  padding-top: 12%;
 
 
 }
@@ -68,7 +70,7 @@ nav {
 .jumboCard {
   text-align: right;
   color: white;
-  width: 50%;
+  width: 47%;
   float: right;
 
 
@@ -83,17 +85,13 @@ nav {
 }
 
 .jumboTitle {
-  font-size: 4em;
-}
-
-.jumboText {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 #btnQuiero {
   color: white;
   border: 1px solid white;
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 300;
   padding: 10px;
   margin-top: 40px;
@@ -104,7 +102,7 @@ nav {
 #btnComprar {
   background-color: #29a744;
   color: white;
-  font-size: 2em;
+  font-size: 1.2em;
   font-weight: 300;
   padding: 10px;
   margin-top: 40px;
@@ -139,7 +137,7 @@ nav {
   column-gap: 3%;
   margin-right: 15%;
   margin-left: 15%;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 #margin {
@@ -151,14 +149,14 @@ nav {
   text-transform: uppercase;
   font-weight: 100;
   text-align: center;
-  margin-top: 30px;
-  font-size: 25px;
+  margin-top: 10px;
+  font-size: 0.8em;
   letter-spacing: 1px;
 }
 
 .oradores {
   text-transform: uppercase;
-  font-size: 55px;
+  font-size: 2.4em;
   margin: 0px;
   font-weight: 500;
 }
@@ -171,6 +169,8 @@ nav {
   grid-area: card1;
   border: 1px solid lightgrey;
   text-align: center;
+  border-radius: 5px;
+
 
 }
 
@@ -178,6 +178,7 @@ nav {
   grid-area: card2;
   border: 1px solid lightgrey;
   text-align: center;
+  border-radius: 5px;
 
 }
 
@@ -185,10 +186,11 @@ nav {
   grid-area: card3;
   border: 1px solid lightgrey;
   text-align: center;
+  border-radius: 5px;
+
 }
 
 #img {
-  border-radius: 5px;
   width: 100%;
   max-width: 100%;
 }
@@ -196,30 +198,32 @@ nav {
 .name {
   text-align: left;
   font-weight: 400;
-  padding-left: 40px
+  padding-left: 20px;
+  font-size: 1.2em;
 }
 
 .text {
   text-align: left;
-  padding-left: 40px;
+  padding-right: 15px;
+  padding-left: 20px;
   font-weight: 200;
+  font-size: 0.8em;
 }
 
 .buttonsGrid {
   text-align: left;
-  margin-top: 40px;
-  padding-left: 40px
+  margin-top: 20px;
+  padding-left: 20px
 }
 
 .btnJS,
 .btnR,
 .btnN,
 .btnStart {
-  margin-top: 10px;
   border: none;
   font-weight: bold;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 0.7em;
 }
 
 .btnJS {
@@ -243,9 +247,9 @@ nav {
 
 .containerOctober {
   display: flex;
-  margin-top: 20px;
   border-top: 1px solid grey;
   padding-top: 2px;
+  margin-bottom: 20px;
 
 }
 
@@ -255,7 +259,7 @@ nav {
   background-size: cover;
   width: 50%;
   background-position: center;
-  height: 800px;
+  height: 500px;
 
 }
 
@@ -263,15 +267,15 @@ nav {
 .titleOctober {
   margin: 0px;
   color: white;
-  padding: 10px;
-  margin-left: 20px;
+  padding: 5px;
+  margin-left: 10px;
 
 
 }
 
 .textOctober {
 
-  font-size: 25px;
+  font-size: 0.8em;
   font-weight: 300;
 
 }
@@ -279,8 +283,9 @@ nav {
 
 .titleOctober {
 
-  font-size: 50px;
+  font-size: 1.8em;
   font-weight: 500;
+  margin-top: 10px;
 }
 
 .textOctoberGral {
@@ -298,15 +303,15 @@ nav {
 #btnConoce {
   color: white;
   border: 1px solid white;
-  margin: 30px;
-  font-size: 30px;
+  margin: 15px;
+  font-size: 0.8em;
   font-weight: 300;
 
 }
 
 .formTitle {
   text-align: center;
-  font-size: 30px;
+  font-size: 1em;
   font-weight: 300;
 }
 
@@ -322,8 +327,8 @@ nav {
   width: 100%;
   margin-top: 10px;
   padding: 10px;
-  font-size: 35px;
-  border-radius: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
 }
 
 .inputs {
@@ -335,17 +340,17 @@ nav {
 
 #input1 {
   margin-right: 30px;
-  font-size: 25px;
+  font-size: 1em;
 }
 
 #input2 {
-  font-size: 25px;
+  font-size: 1em;
 
 }
 
 #textArea {
-  font-size: 35px;
-  padding: 30px;
+  font-size: 1.2em;
+  padding: 10px;
 }
 
 #formCenter {
@@ -364,84 +369,48 @@ nav {
   text-align: left;
   color: grey;
   padding-top: 10px;
-  font-size: 25px;
+  font-size: 0.8em;
 }
 
 
 footer {
   background: linear-gradient(to right, #1c3846, #1f5271);
-  height: 200px;
   margin: 0px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  padding-right: 100px;
-  padding-left: 100px;
-  margin-top: 20px;
+  padding: 1%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .footerText {
   color: white;
-  font-size: 30px;
+  font-size: 1em;
   text-decoration: none;
+
 }
 
 .footerDiv {
   margin: 20px;
-  width: 180px;
+  width: 8%;
 }
 
 
-@media only screen and (max-width: 1800px) {
-
+@media only screen and (max-width: 1200px) {
 
   .nav-item {
-    font-size: 1.2em;
-    margin-right: 20px;
+    font-size: 0.8em;
+    margin-right: 0px;
+
 
   }
 
-  footer {
-
-    margin: 0px;
-    padding: 0px;
-
+  nav {
+    padding-right: 5px;
   }
-
-  .footerDiv {
-    margin: 0px;
-    width: 150px;
-    padding: 0px;
-
-  }
-
-  .footerText {
-    padding: 0px;
-  }
-}
-
-@media only screen and (max-width: 1525px) {
-
-  .footerText {
-    font-size: 1em;
-  }
-
-  footer {
-    height: auto;
-    padding: 20px;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-
-  .nav-item {
-    font-size: 1em;
-    margin-right: 20px;
-
-  }
-
 
   .jumboCard {
 
@@ -460,7 +429,7 @@ footer {
 
   .textOctober {
 
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
 
   }
@@ -468,21 +437,17 @@ footer {
 
   .titleOctober {
 
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
   }
 
   .imgOctober {
 
-    height: 700px;
+    height: 400px;
 
   }
 
-
-  .grid-container {
-    display: block;
-  }
 
 
   .conoce {
@@ -496,7 +461,7 @@ footer {
   }
 
   #textArea {
-    font-size: 25px;
+    font-size: 15px;
     padding: 20px;
   }
 
@@ -542,7 +507,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 768px) {
   .logo {
     width: auto;
     margin: 0px;
@@ -555,69 +520,36 @@ footer {
 
   }
 
+  .grid-container {
+    display: block;
+  }
+
   .jumboCard {
 
 
-    text-align: center;
     color: white;
-    width: 100%;
 
-  }
-
-  #btnQuiero {
-    display: block;
-    font-size: 1em;
-    justify-content: center;
-    font-weight: 300;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 0px;
-
-  }
-
-
-
-  #btnComprar {
-    display: block;
-    font-size: 1em;
-    justify-content: center;
-    font-weight: 300;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .btns {
-
-    margin-top: 2px;
-    margin-bottom: 2px;
   }
 
 
   .background {
-    padding: 20px;
     height: 700px;
   }
 
 
-  .imgOctober {
-    display: none;
-
-  }
 
   .textOctoberGral {
-    width: 100%;
-    text-align: center;
     padding: 10px;
+  }
 
-
+  .textOctober {
+    font-size: 0.7em;
   }
 
   #btnConoce {
     color: white;
     border: 1px solid white;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
 
   }
@@ -661,4 +593,59 @@ footer {
     margin: 10px;
   }
 
+}
+
+@media only screen and (max-width: 480px) {
+
+  .jumboCard {
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  .background {
+    height: 600px;
+    padding: 30px;
+  }
+
+  #btnQuiero {
+    display: block;
+    font-size: 1em;
+    justify-content: center;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+
+  }
+
+
+
+  #btnComprar {
+    display: block;
+    font-size: 1em;
+    justify-content: center;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btns {
+
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .imgOctober {
+    display: none;
+  }
+
+  .textOctoberGral {
+    width: 100%;
+  }
 }
