@@ -224,10 +224,12 @@ nav {
   font-weight: bold;
   border-radius: 5px;
   font-size: 0.7em;
+  color: black;
 }
 
 .btnJS {
   background-color: #ffc107;
+  color: black;
 }
 
 .btnR {
@@ -647,5 +649,8 @@ footer {
 
   .textOctoberGral {
     width: 100%;
+    background: rgba(0, 0, 0, .55) url("../img/honolulu.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
   }
 }
