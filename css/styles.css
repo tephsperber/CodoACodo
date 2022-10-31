@@ -140,26 +140,6 @@ nav {
   margin-bottom: 40px;
 }
 
-#margin {
-  padding-right: 15%;
-  padding-left: 15%;
-}
-
-.conoce {
-  text-transform: uppercase;
-  font-weight: 100;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 0.8em;
-  letter-spacing: 1px;
-}
-
-.oradores {
-  text-transform: uppercase;
-  font-size: 2.4em;
-  margin: 0px;
-  font-weight: 500;
-}
 
 .title {
   grid-area: title;
@@ -188,6 +168,29 @@ nav {
   text-align: center;
   border-radius: 5px;
 
+}
+
+
+
+#margin {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.conoce {
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+.oradores {
+  text-transform: uppercase;
+  font-size: 2.4em;
+  margin: 0px;
+  font-weight: 500;
 }
 
 #img {
@@ -322,31 +325,69 @@ nav {
   text-decoration-style: dotted;
 }
 
-#btnSend {
-  color: white;
-  background-color: #96c93e;
-  border: 1px solid white;
-  width: 100%;
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 1.2em;
-  border-radius: 5px;
-}
+
 
 .inputs {
-  display: flex;
   margin-bottom: 20px;
   border-radius: 20px;
+  display: flex;
 }
 
 
 #input1 {
   margin-right: 30px;
   font-size: 1em;
+  width: 50%;
 }
 
 #input2 {
   font-size: 1em;
+  width: 50%;
+
+}
+
+
+#create {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 45%;
+
+}
+
+#create form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+
+}
+
+#create form input {
+  padding: 1em;
+
+
+}
+
+
+#btnReset {
+  background-color: #96c83c;
+  color: white;
+  border-radius: 2px;
+  width: 100%;
+  align-items: center;
+
+
+
+}
+
+#btnSubmit {
+  background-color: #96c83c;
+  color: white;
+  border-radius: 2px;
+  width: 100%;
+
 
 }
 
@@ -365,6 +406,7 @@ nav {
   align-content: center;
 
 
+
 }
 
 #recuerda {
@@ -374,6 +416,95 @@ nav {
   font-size: 0.8em;
 }
 
+
+.grid-containerTickets {
+  display: grid;
+  grid-template-columns: repeat (1fr 1fr 1fr);
+  grid-template-rows: repeat (1fr);
+  grid-template-areas: "card4 card5 card6";
+  align-content: center;
+  justify-content: center;
+  column-gap: 0.5em;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+
+.title {
+  grid-area: title;
+
+}
+
+.card4 {
+  grid-area: card4;
+  border: 1px solid #8fbbfd;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+
+}
+
+.card5 {
+  grid-area: card5;
+  border: 1px solid #86c2ce;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+
+
+}
+
+.card6 {
+  grid-area: card6;
+  border: 1px solid #fdde94;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0px;
+
+
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.grey {
+  color: grey;
+  font-size: 0.7em;
+}
+
+.bigText {
+  font-size: 2em;
+  text-align: center;
+  margin: 0px;
+}
+
+.formTitleTickets {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.toPay {
+  background-color: #cce5ff;
+  color: #3e85c7;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+
+}
+
+.displayNone {
+  display: none;
+}
+
+#cantidad {
+  height: 2.4em;
+  margin-bottom: 20px;
+}
 
 footer {
   background: linear-gradient(to right, #1c3846, #1f5271);
@@ -387,6 +518,7 @@ footer {
   padding-right: 10%;
   padding-left: 10%;
 }
+
 
 .footerText {
   color: white;
